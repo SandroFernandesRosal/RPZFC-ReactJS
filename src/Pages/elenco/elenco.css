@@ -1,0 +1,30 @@
+.jogadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  
+}
+
+.jogador {
+ margin: 5px;
+ 
+}
+
+.jogador img {
+  border-radius: 7px;
+  
+}
+
+.jogador figcaption {
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  background-color: rgba(43, 41, 41, 0.781);
+  
+  
+}

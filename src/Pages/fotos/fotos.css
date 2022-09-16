@@ -1,0 +1,23 @@
+.fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  overflow: hidden;
+  
+  
+}
+
+.fotos li {
+  margin: 10px;
+}
+.fotos li img {
+width: 50vw;
+border-radius: 10px;
+
+}
+
+.fotos li img:hover {
+  width: 90vw;
+  
+  }

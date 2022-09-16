@@ -1,0 +1,68 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom:10px;
+  list-style: none;
+}
+
+
+
+
+.social svg {
+  margin:0px 5px;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+
+.social svg:hover {
+  color: #792d2f;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(8, 8, 8, 0.781);
+  width: 50%;
+  border-radius: 15px 0px 15px 0px;
+  padding: 15px;
+  border: 1px solid black;
+  
+}
+
+.contato form input, textarea {
+ margin: 3px;
+ padding: 5px;
+ text-align: center;
+ background-color: black;
+ color: white;
+ border: 2px solid #792d2f;
+ border-radius: 15px 0px 15px 0px;
+ cursor: pointer;
+}
+
+.contato form button {
+  width: 40%;
+  height: 10%;
+  margin:10px auto;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  border: 2px solid #792d2f;
+  cursor: pointer;
+ 
+}
+
+.contato form button:hover {
+background-color: #792d2f;
+color: white;
+}

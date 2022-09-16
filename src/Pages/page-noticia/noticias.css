@@ -1,0 +1,44 @@
+.container-noticia {
+  margin: 10px auto;
+  width: 80%;
+  
+  
+}
+
+.container-noticia figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10px;
+  
+  
+}
+
+.container-noticia figure img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container-noticia figure h1 {
+  text-align: justify;
+ border-bottom: 1px solid gray;
+ width: 100%;
+}
+
+.container-noticia figure figcaption {
+  font-size: 20px;
+  
+  
+ }
+
+@media (min-width: 700px) {
+  .container-noticia {
+    
+    width: 50%;
+    
+    
+  }
+}

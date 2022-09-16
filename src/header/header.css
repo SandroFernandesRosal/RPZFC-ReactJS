@@ -1,0 +1,130 @@
+
+
+header {
+  height: 120px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background: url("../header/img/img-header.png") no-repeat #0e0e0e;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  
+}
+
+header nav svg {
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+
+header button {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  
+}
+
+header button:hover {
+  background-color: #792d2f;
+  color: white;
+  transition: 0.5s;
+  
+}
+
+
+a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.menu-mobile {
+  position: absolute;
+  z-index: 35;
+  top: 0%;
+  right: 0%;
+  width: 50vw;
+  border-radius: 40px 0px 0px 40px;
+  border-left: 2px solid black;
+  overflow: hidden;
+  
+  /*rgba(43, 41, 41, 0.781)
+  
+  */
+  }
+  
+.menu-mobile li {
+  margin:0px;
+  padding: 0px;
+  text-transform: uppercase;
+  background-color: #0e0e0e;
+  height: 19.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  border-bottom: 2px solid black;
+  
+  
+  
+  
+}
+
+.menu-mobile li:hover {
+ background-color: #792d2f;
+ transition: 0.5s;
+}
+
+
+
+.escudo {
+  height: 130px;
+}
+
+.menu-mobile .botao-menu {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  
+}
+
+
+
+.menu-desktop {
+  display: none;
+}
+
+@media (min-width: 700px) {
+
+  .botao-menu {
+  display: none;
+}
+
+.menu-desktop {
+  display: flex;
+
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu-desktop li {
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-bottom: none;
+  transition: 0.5s;
+  
+}
+
+.menu-desktop li:hover {
+  background-color: #792d2f;
+}
+
+}
