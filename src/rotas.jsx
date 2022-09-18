@@ -20,7 +20,7 @@ export const Rotas = () => {
 
   return(
 
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Header />
       <Routes>
       <Route element = {<Home />}  path="/" exact />
