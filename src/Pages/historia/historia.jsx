@@ -1,4 +1,5 @@
 import "./historia.css"
+import React from 'react'
 export const Historia = () => {
 
   return(

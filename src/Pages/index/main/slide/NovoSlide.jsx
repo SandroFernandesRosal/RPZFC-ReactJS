@@ -1,3 +1,4 @@
+import React from 'react'
 import { DataSlide } from "./dataSlide"
 import "./slide.css"
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";

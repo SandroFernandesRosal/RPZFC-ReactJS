@@ -1,3 +1,4 @@
+import React from 'react'
 import "./noticias.css"
 import { ItemNoticia } from "./item-noticia"
 import  Camisa  from "../index/main/img/Camisa-rpz.jpeg"

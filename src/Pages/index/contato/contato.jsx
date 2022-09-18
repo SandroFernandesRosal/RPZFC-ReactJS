@@ -1,3 +1,4 @@
+import React from 'react'
 import "./contato.css"
 import {FaFacebook, FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa"
 import { useState } from "react"

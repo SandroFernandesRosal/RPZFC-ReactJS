@@ -1,3 +1,4 @@
+import React from 'react'
 import "./main-rpz.css"
 import  BaladaP  from "./img/baladap.jpeg"
 import  CamisaP  from "./img/camisap.jpeg"

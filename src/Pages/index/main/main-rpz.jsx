@@ -1,3 +1,4 @@
+import React from 'react'
 import "./main-rpz.css"
 import { News } from "./news"
 import { NovoSlide } from "./slide/NovoSlide"

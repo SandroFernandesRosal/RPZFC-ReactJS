@@ -1,14 +1,15 @@
+import React from 'react'
 import "./elenco.css"
-import Guil from "../elenco/img/guil.jpg"
-import Bigorna from "../elenco/img/bigorna.jpg"
-import Eduardo from "../elenco/img/eduardo.jpg"
-import Fala from "../elenco/img/fala.jpg"
-import Giovanni from "../elenco/img/giovanni.jpg"
-import Pablo from "../elenco/img/pablo.jpg"
-import Robertinho from "../elenco/img/robertinho.jpg"
-import Rodolfo from "../elenco/img/rodolfo.jpg"
-import Wiki from "../elenco/img/wiki.jpg"
-import Caio from "../elenco/img/caio.jpg"
+import Guil from "./img/guil.jpg" 
+import Bigorna from "./img/bigorna.jpg"
+import Eduardo from "./img/eduardo.jpg"
+import Fala from "./img/fala.jpg"
+import Giovanni from "./img/giovanni.jpg"
+import Pablo from "./img/pablo.jpg"
+import Robertinho from "./img/robertinho.jpg"
+import Rodolfo from "./img/rodolfo.jpg"
+import Wiki from "./img/wiki.jpg"
+import Caio from "./img/caio.jpg"
 
 export const Elenco = () => {
 
@@ -32,6 +33,7 @@ export const Elenco = () => {
       <Player img={Robertinho} title="Robertinho"/>
       <Player img={Caio} title="Caio"/>
       <Player img={Fala} title="Fala"/>
+      <Player img={Pablo} title="Pablo"/>
       <Player img={Eduardo} title="Eduardo"/>
       <Player img={Giovanni} title="Giovanni"/>
       <Player img={Wiki} title="Wiki"/>

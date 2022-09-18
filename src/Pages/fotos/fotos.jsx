@@ -1,3 +1,4 @@
+import React from 'react'
 import "./fotos.css"
 import Img1 from "./img/01.jpeg"
 import Img2 from "./img/02.jpeg"
