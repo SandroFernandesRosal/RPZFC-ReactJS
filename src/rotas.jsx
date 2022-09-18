@@ -30,8 +30,8 @@ export const Rotas = () => {
       <Route element = {<Fotos />}  path="/fotos" />
       <Route element = {<ElencoRpz />}  path="/noticias/elenco-rpz" />
       <Route element = {<CamisaRpz />}  path="/noticias/camisa-rpz" />
-      <Route element = {<TreinoRpz />}  path="/treino-rpz" />
-      <Route element = {<BaladaRpz />}  path="/balada-rpz" />
+      <Route element = {<TreinoRpz />}  path="/noticias/treino-rpz" />
+      <Route element = {<BaladaRpz />}  path="/noticias/balada-rpz" />
      
       
       </Routes>
