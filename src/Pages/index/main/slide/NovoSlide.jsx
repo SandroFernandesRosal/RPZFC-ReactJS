@@ -13,13 +13,15 @@ export const NovoSlide = () => {
   
   const prevSlide = (e) => {
      e.preventDefault();
-    Carousel.current.scrollLeft -= Carousel.current.offsetWidth;
+     
+     Carousel.current.scrollLeft -= Carousel.current.offsetWidth;
     
   }
 
   const nextSlide = (e) => {
     e.preventDefault(); 
-    Carousel.current.scrollLeft += Carousel.current.offsetWidth;
+   
+     Carousel.current.scrollLeft  += Carousel.current.offsetWidth;
     
   }
 

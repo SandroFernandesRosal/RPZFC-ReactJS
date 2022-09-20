@@ -56,7 +56,7 @@ export const Contato = () => {
         
       </section>
 
-      <form ref={form} onSubmit={onSubmit} action="envia_fale.php"  method="post" name="form">
+      <form ref={form} onSubmit={onSubmit}  name="form">
         <input type="text" name="nome" id="nome" placeholder="Digite seu nome" value={nameInput} onChange={(e) => setNameInput(e.target.value)}  />
 
         <input type="email" name="email" id="email" placeholder="Digite seu email" value={emailInput} onChange={(e) => setEmailInput(e.target.value)}/>
