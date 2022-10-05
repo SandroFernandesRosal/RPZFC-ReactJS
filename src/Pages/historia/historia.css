@@ -1,7 +1,23 @@
+.historia {
+  height: 100vh;
+}
+
 .container-p {
   display: flex;
   justify-content: center;
-  
+  animation-name: historia;
+  animation-duration: 2s;
+}
+
+@keyframes historia {
+  from {
+    width: 0vw;
+    
+  }
+  to {
+     width: 100vw;
+     
+    }
 }
 
 .container-p p{

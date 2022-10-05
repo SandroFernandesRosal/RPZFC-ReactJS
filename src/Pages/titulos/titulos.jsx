@@ -3,7 +3,7 @@ import "./titulos.css"
 export const Titulos = () => {
 
   return(
-    <>
+    <div className="titulos">
     <h2>Títulos</h2>
     <div className="container">
       <ul className="titulos-container">
@@ -13,6 +13,6 @@ export const Titulos = () => {
         <li> Copa Sulamericana do Ipase -2015 </li>
       </ul>
     </div>
-    </>
+    </div>
   )
 }

@@ -9,6 +9,19 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation-name: main;
+  animation-duration: 2s;
+}
+
+@keyframes main {
+  from {
+    width: 0vw;
+    
+  }
+  to {
+     width: 100vw;
+     
+    }
 }
 
 

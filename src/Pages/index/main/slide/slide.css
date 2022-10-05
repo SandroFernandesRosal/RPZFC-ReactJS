@@ -46,11 +46,18 @@ justify-content: space-between;
 .buttons-slide button svg {
   padding: 3px;
   font-size: 30px;
-  
+  animation: buttons .5s infinite;
   
 }
 
-.buttons-slide button svg:hover {
-  color:#792d2f;
-  transition: 0.5s;
+@keyframes buttons {
+  from {
+    color: white;
+    
+  }
+  to {
+     color: #792d2f;
+     
+    }
 }
+

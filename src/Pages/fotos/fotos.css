@@ -4,8 +4,20 @@
   align-items: center;
   list-style: none;
   overflow: hidden;
+  animation-name: fotos;
+  animation-duration: 2s;
   
-  
+}
+
+@keyframes fotos {
+  from {
+    width: 0vw;
+    
+  }
+  to {
+     width: 100vw;
+     
+    }
 }
 
 .fotos li {

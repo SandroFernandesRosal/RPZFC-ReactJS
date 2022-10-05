@@ -23,7 +23,10 @@ export const Contato = () => {
       }, (error) => {
           alert(error.mensagem);
       });
-      e.target.reset();
+      setNameInput('');
+      setEmailInput('');
+      setAssuntoInput('');
+      setTextInput('');
  }
  
 
@@ -57,13 +60,13 @@ export const Contato = () => {
       </section>
 
       <form ref={form} onSubmit={onSubmit}  name="form">
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" value={nameInput} onChange={(e) => setNameInput(e.target.value)}  />
+        <input  required={true} type="text" name="nome" id="nome" placeholder="Digite seu nome" value={nameInput} onChange={(e) => setNameInput(e.target.value)}  />
 
-        <input type="email" name="email" id="email" placeholder="Digite seu email" value={emailInput} onChange={(e) => setEmailInput(e.target.value)}/>
+        <input  required={true} type="email" name="email" id="email" placeholder="Digite seu email" value={emailInput} onChange={(e) => setEmailInput(e.target.value)}/>
 
-        <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto" value={assuntoInput} onChange={(e) => setAssuntoInput(e.target.value)}/>
+        <input  required={true} type="text" name="assunto" id="assunto" placeholder="Digite o assunto" value={assuntoInput} onChange={(e) => setAssuntoInput(e.target.value)}/>
 
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" value={textInput} onChange={(e) => setTextInput(e.target.value)} ></textarea>
+        <textarea  required={true} name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" value={textInput} onChange={(e) => setTextInput(e.target.value)} ></textarea>
 
         <button type="submit" name="submit">Enviar</button>
       </form>

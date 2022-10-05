@@ -3,7 +3,7 @@ import React from 'react'
 export const ItemNoticia = (props) => {
 
     return(
-    <div className="container-noticia">
+    <div className="container-noticiaa">
     <figure>
       <h1>{props.title}</h1>
       <img src={props.img} alt={props.title}/>

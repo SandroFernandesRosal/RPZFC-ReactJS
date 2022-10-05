@@ -10,24 +10,23 @@ import { Link } from "react-router-dom"
 export const Header = () => {
 
 const [showMenu, setShowMenu] = useState(false)
-const showOrHide = () => setShowMenu(true)
-const hideMenu = () => setShowMenu(false)
+
 
   return (
     <header>
       <Link to="/">
-        <img className="escudo" src={Escudo} onClick={hideMenu}/>
+        <img className="escudo" src={Escudo} onClick={() => setShowMenu(false)}/>
       </Link>
 
       <nav>
         <button className="botao-menu">
-          <GiHamburgerMenu onClick={showOrHide}/>
+          <GiHamburgerMenu onClick={() => setShowMenu(true)}/>
         </button>
         
         { showMenu &&
-         <ul className="menu-mobile">
+         <ul className="menu-mobile" onClick={() => setShowMenu(false)}>
             <button className="botao-menu">
-              <AiOutlineClose onClick={hideMenu} />
+              <AiOutlineClose onClick={() => setShowMenu(false)} />
             </button>
             <Menu/>
         </ul>}

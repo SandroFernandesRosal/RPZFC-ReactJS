@@ -1,9 +1,24 @@
-
+.titulos {
+  height: 100vh;;
+}
 
 .container {
   display: flex;
-  justify-content: center;
   
+  justify-content: center;
+  animation-name: titulos;
+  animation-duration: 2s;
+}
+
+@keyframes titulos {
+  from {
+    width: 0vw;
+    
+  }
+  to {
+     width: 100vw;
+     
+    }
 }
 
 .titulos-container {

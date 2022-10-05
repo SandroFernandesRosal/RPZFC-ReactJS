@@ -3,7 +3,19 @@
   flex-direction: column;
   align-items: center;
   margin: 15px 0;
-  
+  animation-name: contato;
+  animation-duration: 2s;
+}
+
+@keyframes contato {
+  from {
+    width: 0vw;
+    
+  }
+  to {
+     width: 100vw;
+     
+    }
 }
 
 .social {
