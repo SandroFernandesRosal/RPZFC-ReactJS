@@ -1,7 +1,7 @@
-import React from 'react'
-import "./noticias.css"
-import { ItemNoticia } from "./item-noticia"
-import  Elenco  from "../index/main/img/elenco-rpz.jpg"
+import React from 'react';
+import "./noticias.css";
+import { ItemNoticia } from "./item-noticia";
+import  Elenco  from "../index/main/img/elenco-rpz.jpg";
 
 
 
